@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Homework9</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Task1</h1>
+    <div class="task1">
+        <p class="week">კვირის დღეები: </p>
+        <div class="getday" id="div1"></div>
+        <br><br><br>
+        <div class="button">
+            <button onclick="f1_1()">1</button>
+            <button onclick="f1_2()">2</button>
+            <button onclick="f1_3()">3</button>
+            <button onclick="f1_4()">4</button>
+            <button onclick="f1_5()">5</button>
+            <button onclick="f1_6()">6</button>
+            <button onclick="f1_7()">7</button>
+        </div>
+    </div>
+    <hr>
+    <div class="task2">
+        <h1>Task2</h1>
+        <table>
+            <tr>
+                <td colspan="4" style="height: 150px;"><div id="div2"></div></td>
+            </tr>
+            <tr>
+                <td><button id="mult" onclick="f2_mult()" value="*">*</button></td>
+                <td><button id="div" onclick="f2_div()" value="/">/</button></td>
+                <td><button id="sqr" onclick="f2_sqr()", value="**">**</button></td>
+                <td><button id="clear" onclick="f2_clr()", value="c">C</button></td>
+            </tr>
+            <tr>
+                <td><button id="seven" onclick="f2_seven()", value="7">7</button></td>
+                <td><button id="eight" onclick="f2_eight()" value="8">8</button></td>
+                <td><button id="nine" onclick="f2_nine()" value="9">9</button></td>
+                <td><button id="pluse" onclick="f2_pluse()" value="+">+</button></td>
+            </tr>
+            <tr>
+                <td><button id="four" onclick="f2_four()" value="4">4</button></td>
+                <td><button id="five" onclick="f2_five()" value="5">5</button></td>
+                <td><button id="six" onclick="f2_six()" value="6">6</button></td>
+                <td><button id="minus" onclick="f2_minus()" value="-">-</button></td>
+            </tr>
+            <td><button id="one" onclick="f2_one()" value="1">1</button></td>
+            <td><button id="two" onclick="f2_two()" value="2">2</button></td>
+            <td><button id="three" onclick="f2_three()" value="3">3</button></td>
+            <td><button style="background-color: orangered; color: black;" id="equal" onclick="f2_equal()" value="=">=</button></td>
+            </tr>
+        </table>
+    </div>
+    <br><br><br>
+    <hr>
+    <div class="task3">
+        <h1>Task 3</h1>
+        <h1 style="text-align: center;">მარტივი პროცენტის გამოსათვლელი კალკულატორი</h1>
+        <br><br><br>
+        <label>მიუთითეთ ინვესტიციის ოდენობა:</label>
+        <input type="text" id="P">
+        <br><br><br>
+        <label>მიუთითეთ დრო (წლებში):</label>
+        <input type="text" id="T">
+        <br><br><br>
+        <label>მიუთითეთ საპრცენტო განაკვეთი (%):</label>
+        <input type="text" id="R">
+        <br><br><br>
+        <button onclick="f_3()">დაანგარიშება</button>
+        <div id="display"></div>
+    </div>
+    <br><br><br>
+    <hr>
+    <div class="task4">
+        <h1>Task 4</h1>
+        <h1 style="text-align: center;">რთული პროცენტის გამოსათვლელი კალკულატორი</h1>
+        <br><br><br>
+        <label>მიუთითეთ თანხა რომლის დეპოზიტზე შეტნასაც გეგმავთ:</label>
+        <input type="text" id="Ko">
+        <br><br><br>
+        <label>მიუთითეთ საპროცენტო განაკვეთი:</label>
+        <input type="text" id="P2">
+        <br><br><br>
+        <label>მიუთითეთ დეპოზიტის ვადა:</label>
+        <input type="text" id="T2">
+        <br><br><br>
+        <button onclick="f_4()">დაანგარიშება</button>
+        <div id="display2"></div>
+    </div>
+    <br><br><br>
+    <hr>
+    <div class="task5">
+        <h1>Task 5</h1>
+        <div id="number_space"></div>
+        <button onclick="f_5()" class="generator">დაგენერირება</button>
+    </div>
+    <br><br><br>
+    <hr>
+    <div class="task6">
+        <h1>Task 6</h1>
+        <label>მიუთითეთ რენდომ რიცხვების დასაწყისი:</label>
+        <input type="text" id="min">
+        <br><br><br>
+        <label>მიუთითეთ რენდომ რიცხვების დასასრული:</label>
+        <input type="text" id="max">
+        <div id="number_space2"></div>
+        <button onclick="f_6()" class="generator2">დაგენერირება</button>
+    </div>
+    <br><br><br>
+    <hr>
+    <div class="task7">
+        <h1>Task 7</h1>
+        <label>მიუთითეთ სვეტების რაოდენობა:</label>
+        <input type="text" id="row">
+        <br><br><br>
+        <label>მიუთითეთ სტრიქპნდების რაოდენობა:</label>
+        <input type="text" id="column">
+        <br><br><br>
+        <label>მიუთითეთ ფოტოების რაოდენობა:</label>
+        <input type="text" id="pictures">
+        <button onclick="f_7()" class="table_button">შექმნა</button>
+        <table id="table"></table>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>

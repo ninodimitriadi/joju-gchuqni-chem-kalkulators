@@ -1,0 +1,225 @@
+.task1 {
+    background-color: gray;
+    min-height: 300px;
+    position: relative;
+}
+.week {
+    margin-right: 20px;
+    padding-top: 30px;
+    margin-left: 50px;
+    font-size: 30px;
+    font-weight: bold;
+}
+.task1 .getday {
+    position: absolute;
+    top: 30px;
+    margin-left: 300px;
+    height: 40px;
+    width: 200px;
+    border: solid 1px black;
+    background-color: white;
+}
+.task1 .button {
+    margin-left: 40px;
+}
+.task1 button {
+    margin-left: 10px;
+    height: 40px;
+    width: 110px;
+    background-color: #e8e8e8;
+    text-align: center;
+    font-size: 30px;
+    border: solid 0px;
+}
+.task2 {
+    min-height: 300px;
+    position: relative;
+}
+.task2 table{
+    height: 650px;
+    width: 500px;
+    border: solid 1px;
+    margin: auto;
+    border-collapse: collapse;
+}
+.task2 td, tr {
+    border: solid 1px;
+}
+.task2 button {
+    height: 100%;
+    width: 100%;
+    background-color: black;
+    color: orangered;
+    box-sizing: border-box;
+    font-size: 30px;
+}
+.task2 #div2 {
+    position: relative;
+    height: 100%;
+    width: 100%;
+    background-color: black;
+    color: orangered;
+    text-align: right;
+    font-size: 100px;
+}
+.task3, .task4, .task5, .task6, .task7 {
+    min-height: 600px;
+    width: 100%;
+    position: relative;
+}
+.task3 label, .task4 label, .task6 label, .task7 label {
+    font-size: 30px;
+    text-align: left;
+}
+.task3 input, .task4 input, .task6 input, .task7 input {
+    height: 40px;
+    width: 200px;
+    font-size: 20px;
+    border-radius: 10px;
+}
+.task3 button, .task4 button {
+    height: 60px;
+    width: 250px;
+    border-radius: 30px;
+    font-size: 25px;
+    background-color: aquamarine;
+    font-weight: bold;
+    margin-left: 100px;
+}
+.task3 #display {
+    position: absolute;
+    width: 500px;
+    height: 100px;
+    border: solid 1px;
+    left: 900px;
+    top: 200px;
+    background-color: darkgray;
+    border-radius: 5px;
+    text-align: left;
+    font-size: 30px;
+    color: white;
+}
+.task4 #display2 {
+    position: absolute;
+    width: 500px;
+    height: 100px;
+    border: solid 1px;
+    left: 1000px;
+    top: 300px;
+    background-color: darkgray;
+    border-radius: 5px;
+    text-align: left;
+    font-size: 30px;
+    color: white;
+}
+.task5 #number_space{
+    position: absolute;
+    height: 150px;
+    width: 700px;
+    font-size: 20px;
+    border: solid 1px black;
+    top: 20px;
+    right: 100px;
+    background-color: black;
+    color: greenyellow;
+    border-radius: 20px;
+    text-align: center;
+    padding-top: 100px;
+}
+.task5 .generator {
+    position: absolute;
+    height: 100px;
+    width: 300px;
+    left: 200px;
+    top: 90px;
+    font-size: 25px;
+    border-radius: 100px;
+    background-color: black;
+    color: #fff;
+    text-shadow:
+        0 0 7px #fff,
+        0 0 10px #fff,
+        0 0 21px #fff,
+        0 0 42px rgb(19, 92, 68),
+        0 0 82px rgb(19, 92, 68),
+        0 0 92px rgb(19, 92, 68),
+        0 0 102px rgb(19, 92, 68),
+        0 0 151px rgb(19, 92, 68);
+}
+.task6 #number_space2{
+    position: absolute;
+    height: 150px;
+    width: 700px;
+    font-size: 20px;
+    border: solid 1px black;
+    top: 250px;
+    right: 100px;
+    background-color: black;
+    color: greenyellow;
+    border-radius: 20px;
+    text-align: center;
+    padding-top: 100px;
+}
+.task6 .generator2 {
+    position: absolute;
+    height: 100px;
+    width: 300px;
+    left: 200px;
+    top: 300px;
+    font-size: 25px;
+    border-radius: 100px;
+    background-color: black;
+    color: #fff;
+    text-shadow:
+        0 0 7px #fff,
+        0 0 10px #fff,
+        0 0 21px #fff,
+        0 0 42px rgb(19, 92, 68),
+        0 0 82px rgb(19, 92, 68),
+        0 0 92px rgb(19, 92, 68),
+        0 0 102px rgb(19, 92, 68),
+        0 0 151px rgb(19, 92, 68);
+}
+.task7 .table_button {
+    position: absolute;
+    height: 70px;
+    width: 250px;
+    left: 50px;
+    top: 300px;
+    font-size: 25px;
+    border-radius: 100px;
+    background-color: black;
+    color: #fff;
+    text-shadow:
+        0 0 7px #fff,
+        0 0 10px #fff,
+        0 0 21px #fff,
+        0 0 42px rgb(19, 92, 68),
+        0 0 82px rgb(19, 92, 68),
+        0 0 92px rgb(19, 92, 68),
+        0 0 102px rgb(19, 92, 68),
+        0 0 151px rgb(19, 92, 68);
+}
+/* .task7 #for_table{
+    position: absolute;
+    min-height: 500px;
+    width: 100%;
+    top: 400px;
+} */
+#table {
+    position: absolute;
+    min-height: 100px;
+    min-width: 100px;
+    /* border: solid 1px black; */
+    top: 400px;
+    left: 500px;
+}
+#table tr, td {
+    border: solid 1px black;
+    height: 100px;
+    width: 100px;
+}
+#table img{
+    height: 100%;
+    width: 100%;
+}
